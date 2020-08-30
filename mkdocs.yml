@@ -1,0 +1,20 @@
+site_name: My Docs
+theme: material
+
+nav:
+    - Named Volume Upgrades: named-volumes-upgrades.md
+    - Bind Mounts for Automatic Updates: bind-mounts.md
+    - Build in Docker Compose: docker-compose-builds.md
+    - Docker Swarm: swarm.md
+
+markdown_extensions:
+    - admonition
+    # - pymdownx.highlight:
+    #     use_pygments: True
+    - codehilite:
+        linenums: true
+    - pymdownx.tasklist
+    - pymdownx.magiclink
+    - pymdownx.tilde
+    - pymdownx.details
+    - pymdownx.superfences
